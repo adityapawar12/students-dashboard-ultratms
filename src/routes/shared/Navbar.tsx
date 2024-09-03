@@ -25,7 +25,7 @@ function Navbar({
           className="flex w-full max-w-sm items-center space-x-2"
         >
           <Sheet>
-            <SheetTrigger>
+            <SheetTrigger className="block md:hidden">
               <Menu className="text-[#707FDD]" />
             </SheetTrigger>
             <SheetContent side={"left"} className="p-0 m-0 w-72">
